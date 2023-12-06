@@ -29,10 +29,11 @@ body{
 }
 li{
   border: solid yellow;
- transition: box-shadow 0.2s ease-in;
+ transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
   background-image: url("/rymsboll.png");
   background-position: center;
   background-size: contain;
+  transform: scale(1);
 
 
   border-radius: 50%;
@@ -47,6 +48,6 @@ li{
 li:hover{
   box-shadow: 0px 0px 20px 10px rgb(128, 0, 128, 1.5);
   border-color: purple;
-  // border-radius: 0;
+  transform: scale(1.05);
 
 }
