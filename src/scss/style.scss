@@ -27,9 +27,13 @@ body{
   padding: 30px;
   
 }
+h2, h3{
+  text-shadow: black 5px 0 10px;
+ 
+}
 li{
   border: solid yellow;
- transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in, transform 0.2s ease-in;
   background-image: url("/rymsboll.png");
   background-position: center;
   background-size: contain;
@@ -37,7 +41,7 @@ li{
 
 
   border-radius: 50%;
-  box-shadow: 0px 0px 20px 10px yellow;
+  box-shadow: 0px 0px 20px 10px rgb(255, 255, 0);
   padding: 30px;
   width: 200px;
   display: flex;
@@ -46,7 +50,7 @@ li{
   align-items: center;
 }
 li:hover{
-  box-shadow: 0px 0px 20px 10px rgb(128, 0, 128, 1.5);
+  box-shadow: 0px 0px 20px 10px rgb(128, 0, 128);
   border-color: purple;
   transform: scale(1.05);
 
